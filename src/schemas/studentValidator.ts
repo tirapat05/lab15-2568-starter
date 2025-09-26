@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-const zStudentId = z
+export const zStudentId = z
   .string()
   .length(9, { message: "Student Id must contain 9 characters" });
 const zFirstName = z

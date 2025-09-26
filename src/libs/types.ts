@@ -3,6 +3,7 @@ interface Student {
   firstName: string;
   lastName: string;
   program: "CPE" | "ISNE";
+  section?: string;
   courses?: number[];
 }
 export type { Student };

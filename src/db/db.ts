@@ -1,4 +1,6 @@
+import type { Student, Course } from "../libs/types.js";
 export let students: Student[] = [
+
     {
       studentId: "650610001",
       firstName: "Matt",
@@ -37,4 +39,4 @@ export let students: Student[] = [
       courseTitle: "Introduction to Information Systems and Network Engineering",
       instructors: ['KENNETH COSH']
     }
-  ]
+  ];
